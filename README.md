@@ -1,4 +1,4 @@
-# Mobo — Boardview → KiCad PCB Toolchain
+# H81-Custom-MotherBoard — Boardview → KiCad PCB Toolchain
 
 Reverse-engineering toolchain for the **Gigabyte GA-H81M-S1** motherboard.
 Reads a `.tvw` boardview file, exports component/pin data as CSV, and regenerates
@@ -9,7 +9,7 @@ a full KiCad 6 project (PCB layout + schematic + footprint library).
 ## Directory Structure
 
 ```
-Mobo/
+H81-Custom-MotherBoard/
   boardview/              Python boardview viewer (Thermetery Technology)
   boards/GA-H81M-S1/     TVW board files
   pipeline/
