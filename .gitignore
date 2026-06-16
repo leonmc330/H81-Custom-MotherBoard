@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.lck
+.history/
+
+# Board files with passwords / large binaries
+boards/GA-H81M-S1/in.tvw
+boards/GA-H81M-S1/in1.tvw
+boards/GA-H81M-S1/in1.tvw.comps.csv
+*.topocache.pkl
+
+# Native binaries
+boardview/*.dll
+boards/GA-H81M-S1/eagleview.exe
+boards/GA-H81M-S1/*.dll
+
+# FreeRouter autorouter (large Java tool)
+FreeRouter/
