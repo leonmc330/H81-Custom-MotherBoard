@@ -10,11 +10,11 @@ from collections import defaultdict
 
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 MOBO_DIR    = os.path.normpath(os.path.join(_SCRIPT_DIR, '..', '..'))
-REFORMING_DIR = os.path.join(MOBO_DIR, 'reforming')
+SRC_DIR     = os.path.join(MOBO_DIR, 'src')
 
-PINS_FILE   = os.path.join(REFORMING_DIR, "pins.csv")
-COMP_FILE   = os.path.join(REFORMING_DIR, "components.csv")
-OUTPUT_DIR  = os.path.join(MOBO_DIR, "reforming.pretty")
+PINS_FILE   = os.path.join(SRC_DIR, "pins.csv")
+COMP_FILE   = os.path.join(SRC_DIR, "components.csv")
+OUTPUT_DIR  = os.path.join(MOBO_DIR, "footprint.pretty")
 
 PIN_SCALE   = 2.54 * 0.0001   # TVW units → mm (same as pintokicad.py)
 FLIP_X      = True
@@ -196,5 +196,5 @@ print("=" * 52)
 print()
 print("  Add the library to KiCad:")
 print("  Preferences > Manage Footprint Libraries > Global/Project tab")
-print(f'  Nickname: reforming    Path: .../reforming.pretty')
+print(f'  Nickname: footprint    Path: .../footprint.pretty')
 print("=" * 52)

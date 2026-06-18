@@ -10,12 +10,12 @@ from collections import defaultdict, Counter, OrderedDict
 # =========================
 
 _SCRIPT_DIR     = os.path.dirname(os.path.abspath(__file__))
-REFORMING_DIR   = os.path.normpath(os.path.join(_SCRIPT_DIR, '..', '..', 'reforming'))
+SRC_DIR         = os.path.normpath(os.path.join(_SCRIPT_DIR, '..', '..', 'src'))
 
-PINS_FILE       = os.path.join(REFORMING_DIR, "pins.csv")
-COMP_FILE       = os.path.join(REFORMING_DIR, "components.csv")
-OUTPUT_FILE     = os.path.join(REFORMING_DIR, "output.kicad_pcb")
-PININFO_FILE    = os.path.join(REFORMING_DIR, "pininfo.txt")
+PINS_FILE       = os.path.join(SRC_DIR, "pins.csv")
+COMP_FILE       = os.path.join(SRC_DIR, "components.csv")
+OUTPUT_FILE     = os.path.join(SRC_DIR, "H81-Custom-MotherBoard.kicad_pcb")
+PININFO_FILE    = os.path.join(SRC_DIR, "pininfo.txt")
 
 PIN_SCALE       = 2.54 * 0.0001   # micrometers → mm
 FLIP_X          = True
@@ -24,7 +24,7 @@ FLIP_Y          = True
 PAD_SIZE_DEFAULT  = 0.1
 DRILL_SIZE_DEFAULT = 0.1
 
-FP_LIBRARY        = "reforming"
+FP_LIBRARY        = "footprint"
 
 GRID_MM         = 0.5
 COPPER_LAYERS   = 4

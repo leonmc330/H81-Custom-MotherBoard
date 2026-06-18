@@ -7,10 +7,10 @@ _SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(_SCRIPT_DIR, '..'))
 import lib
 
-REFORMING_DIR = os.path.normpath(os.path.join(_SCRIPT_DIR, '..', '..', 'reforming'))
-PINS_FILE     = os.path.join(REFORMING_DIR, "pins.csv")
-COMP_FILE     = os.path.join(REFORMING_DIR, "components.csv")
-OUTPUT_FILE   = os.path.join(REFORMING_DIR, "output.kicad_sch")
+SRC_DIR       = os.path.normpath(os.path.join(_SCRIPT_DIR, '..', '..', 'src'))
+PINS_FILE     = os.path.join(SRC_DIR, "pins.csv")
+COMP_FILE     = os.path.join(SRC_DIR, "components.csv")
+OUTPUT_FILE   = os.path.join(SRC_DIR, "H81-Custom-MotherBoard.kicad_sch")
 
 GRID          = 2.54
 FONT_SZ       = 1.27
@@ -194,7 +194,7 @@ def _generate(draws, placed, sheet_w, sheet_h):
         o.append(f'      (at {sx:.3f} {round(sy + bh + 1.27, 3):.3f} 0)')
         o.append(f'      (effects (font (size {FONT_SZ} {FONT_SZ})))')
         o.append( '    )')
-        fp = ('reforming:' + lib.safe_fp_name(d['dev'])) if d['first'] else ''
+        fp = ('footprint:' + lib.safe_fp_name(d['dev'])) if d['first'] else ''
         o.append(f'    (property "Footprint" {lib.qesc(fp)} (id 2)')
         o.append(f'      (at {sx:.3f} {sy:.3f} 0)')
         o.append(f'      (effects (font (size {FONT_SZ} {FONT_SZ})) (hide yes))')

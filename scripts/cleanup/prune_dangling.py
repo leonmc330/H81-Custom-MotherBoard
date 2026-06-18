@@ -12,10 +12,10 @@ import sys
 from collections import defaultdict
 
 _SCRIPT_DIR    = os.path.dirname(os.path.abspath(__file__))
-REFORMING_DIR  = os.path.normpath(os.path.join(_SCRIPT_DIR, '..', '..', 'reforming'))
+SRC_DIR        = os.path.normpath(os.path.join(_SCRIPT_DIR, '..', '..', 'src'))
 
-INPUT  = sys.argv[1] if len(sys.argv) > 1 else os.path.join(REFORMING_DIR, "output.kicad_pcb")
-OUTPUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(REFORMING_DIR, "output_pruned.kicad_pcb")
+INPUT  = sys.argv[1] if len(sys.argv) > 1 else os.path.join(SRC_DIR, "H81-Custom-MotherBoard.kicad_pcb")
+OUTPUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(SRC_DIR, "H81-Custom-MotherBoard_pruned.kicad_pcb")
 
 pcb = open(INPUT, encoding="utf-8").read()
 
