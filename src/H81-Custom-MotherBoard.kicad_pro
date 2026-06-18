@@ -513,11 +513,216 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.2,
+        "name": "Audio",
+        "pcb_color": "rgb(180, 100, 255)",
+        "priority": 50,
+        "schematic_color": "rgb(180, 100, 255)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.25,
+        "name": "Clocks",
+        "pcb_color": "rgb(255, 120, 0)",
+        "priority": 75,
+        "schematic_color": "rgb(255, 120, 0)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.13,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.15,
+        "diff_pair_width": 0.13,
+        "name": "DMI_FDI_DiffPair",
+        "pcb_color": "rgb(255, 0, 150)",
+        "priority": 73,
+        "schematic_color": "rgb(255, 0, 150)",
+        "track_width": 0.13,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.22
+      },
+      {
+        "clearance": 0.2,
+        "name": "GND",
+        "pcb_color": "rgb(40, 40, 40)",
+        "priority": 100,
+        "schematic_color": "rgb(40, 40, 40)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35
+      },
+      {
         "name": "High Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.2,
+        "diff_pair_width": 0.15,
+        "name": "LAN",
+        "pcb_color": "rgb(0, 180, 0)",
+        "priority": 55,
+        "schematic_color": "rgb(0, 180, 0)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Low_Speed_IO",
+        "pcb_color": "rgb(150, 150, 150)",
+        "priority": 40,
+        "schematic_color": "rgb(150, 150, 150)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "name": "PCH_Data",
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 60,
+        "schematic_color": "rgb(255, 255, 0)",
+        "track_width": 0.18,
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.25
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.2,
+        "diff_pair_width": 0.15,
+        "name": "PCIe_DiffPair",
+        "pcb_color": "rgb(150, 0, 255)",
+        "priority": 72,
+        "schematic_color": "rgb(150, 0, 255)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.25
+      },
+      {
+        "clearance": 0.3,
+        "name": "PWR_ATX_Bulk",
+        "pcb_color": "rgb(230, 30, 30)",
+        "priority": 90,
+        "schematic_color": "rgb(230, 30, 30)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 1.1,
+        "via_drill": 0.5
+      },
+      {
+        "clearance": 0.3,
+        "name": "PWR_CPU_Core",
+        "pcb_color": "rgb(255, 90, 0)",
+        "priority": 95,
+        "schematic_color": "rgb(255, 90, 0)",
+        "track_width": 1.2,
+        "tuning_profile": "",
+        "via_diameter": 1.2,
+        "via_drill": 0.6
+      },
+      {
+        "clearance": 0.2,
+        "name": "PWR_PCH",
+        "pcb_color": "rgb(255, 205, 0)",
+        "priority": 80,
+        "schematic_color": "rgb(255, 205, 0)",
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35
+      },
+      {
+        "clearance": 0.2,
+        "name": "PWR_PCIe",
+        "pcb_color": "rgb(190, 110, 255)",
+        "priority": 78,
+        "schematic_color": "rgb(190, 110, 255)",
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35
+      },
+      {
+        "clearance": 0.25,
+        "name": "PWR_RAM",
+        "pcb_color": "rgb(255, 160, 0)",
+        "priority": 85,
+        "schematic_color": "rgb(255, 160, 0)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.15,
+        "diff_pair_width": 0.15,
+        "name": "RAM_Data",
+        "pcb_color": "rgb(0, 150, 255)",
+        "priority": 70,
+        "schematic_color": "rgb(0, 150, 255)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.25
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.2,
+        "diff_pair_width": 0.15,
+        "name": "SATA_DiffPair",
+        "pcb_color": "rgb(0, 200, 200)",
+        "priority": 71,
+        "schematic_color": "rgb(0, 200, 200)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.25
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "name": "USB_DiffPair",
+        "pcb_color": "rgb(0, 255, 110)",
+        "priority": 69,
+        "schematic_color": "rgb(0, 255, 110)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.25
+      },
+      {
+        "clearance": 0.2,
+        "name": "VGA_Display",
+        "pcb_color": "rgb(100, 150, 255)",
+        "priority": 52,
+        "schematic_color": "rgb(100, 150, 255)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -527,8 +732,1584 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "/A*GND"
+        "netclass": "GND",
+        "pattern": "/GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/AGND"
+      },
+      {
+        "netclass": "PWR_CPU_Core",
+        "pattern": "/VCORE"
+      },
+      {
+        "netclass": "PWR_CPU_Core",
+        "pattern": "/VCORE0"
+      },
+      {
+        "netclass": "PWR_CPU_Core",
+        "pattern": "/CPU_VAXG"
+      },
+      {
+        "netclass": "PWR_CPU_Core",
+        "pattern": "/CPU_VTT_OR"
+      },
+      {
+        "netclass": "PWR_CPU_Core",
+        "pattern": "/VCCST"
+      },
+      {
+        "netclass": "PWR_CPU_Core",
+        "pattern": "/VCCST_PWRGD"
+      },
+      {
+        "netclass": "PWR_CPU_Core",
+        "pattern": "/VR_RDY"
+      },
+      {
+        "netclass": "PWR_CPU_Core",
+        "pattern": "/VSS_SENSE"
+      },
+      {
+        "netclass": "PWR_CPU_Core",
+        "pattern": "/VCC_SENSE"
+      },
+      {
+        "netclass": "PWR_RAM",
+        "pattern": "/VDDSPD"
+      },
+      {
+        "netclass": "PWR_RAM",
+        "pattern": "/DDRVTT"
+      },
+      {
+        "netclass": "PWR_RAM",
+        "pattern": "/DDR_15V"
+      },
+      {
+        "netclass": "PWR_RAM",
+        "pattern": "/DDR_15VIO"
+      },
+      {
+        "netclass": "PWR_RAM",
+        "pattern": "/DDR_VTT_REF"
+      },
+      {
+        "netclass": "PWR_RAM",
+        "pattern": "/DDR_EN_CON"
+      },
+      {
+        "netclass": "PWR_RAM",
+        "pattern": "/VREF_DDRA"
+      },
+      {
+        "netclass": "PWR_RAM",
+        "pattern": "/VREF_DDRB"
+      },
+      {
+        "netclass": "PWR_RAM",
+        "pattern": "/VREF_DQA"
+      },
+      {
+        "netclass": "PWR_RAM",
+        "pattern": "/VREF_DQB"
+      },
+      {
+        "netclass": "PWR_RAM",
+        "pattern": "/VCCIOA_L"
+      },
+      {
+        "netclass": "PWR_PCH",
+        "pattern": "/3VDUAL_PCH"
+      },
+      {
+        "netclass": "PWR_PCH",
+        "pattern": "/VCC1_5_PCH"
+      },
+      {
+        "netclass": "PWR_PCH",
+        "pattern": "/VCCIO2PCH"
+      },
+      {
+        "netclass": "PWR_PCH",
+        "pattern": "/N_PCH_DPWROK"
+      },
+      {
+        "netclass": "PWR_PCH",
+        "pattern": "/N_PCH_VRMPWRGD"
+      },
+      {
+        "netclass": "PWR_PCH",
+        "pattern": "/N_DRAM_PWROK"
+      },
+      {
+        "netclass": "PWR_PCH",
+        "pattern": "/N_DSWVRMEN"
+      },
+      {
+        "netclass": "PWR_PCH",
+        "pattern": "/N_INTVRMEN"
+      },
+      {
+        "netclass": "PWR_PCH",
+        "pattern": "/V_1P05_DSW_INT"
+      },
+      {
+        "netclass": "PWR_PCH",
+        "pattern": "/V_1P5_INT"
+      },
+      {
+        "netclass": "PWR_PCH",
+        "pattern": "/V_1P5_RTC_INT"
+      },
+      {
+        "netclass": "PWR_PCIe",
+        "pattern": "/PCIE_COMP"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/+12V"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/+12V_LOAD"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/-12V"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/5VSB"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/28_3VSB"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/5VAUX_SW"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VCC"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VCC3"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VCC3_DAC"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/5VDUAL"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/3VDUAL"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/-PSON"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/PWOK"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/X16_+12V"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/X1_1_+12V"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/X1_2_+12V"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/PIN_ATX_12V_*"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VIN0"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VIN1"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VIN2"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VIN3"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VIN4"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VIN5"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VIN6"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/V1N"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/V2N"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/V3N"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/V12"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/PH1"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/PH2"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/PH3"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/PHASE1_5V"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/SIO_18V"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/TR4"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/TR5"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/TR6"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/UG1"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/UG1_1"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/UG2"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/UG2_1"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/UG3"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/UG3_1"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/TD_IREF"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/FUSEVCC_F"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/FUSEVCC_R"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/FUSEVCC_USB3_R3"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/IO_EN1"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/ISEN1"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/ISEN2"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/ISEN3"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/ITE_PWROK1"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/IT_AVCC"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/IT_VCCH"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VCC15_G"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VCC18_EN"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VCC1_05_EN"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VCC1_05_G"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VCC1_05_ME"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VOBR"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VODR"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VSUMN"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VSUMP"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/VTT_PWRGD"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/AVDD"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/N_RTCVDD"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/N_VBAT"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/N_VBATT"
+      },
+      {
+        "netclass": "PWR_ATX_Bulk",
+        "pattern": "/GRCOMP"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/MDA*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/MDB*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/MAAA*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/MAAB*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/DQSA*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/DQSB*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-DQSA*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-DQSB*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/SBAA*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/SBAB*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/MODT_A*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/MODT_B*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/CKEA*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/CKEB*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-CSA*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-CSB*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-DCLKA*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-DCLKB*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/DCLKA*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/DCLKB*"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-HOLD0"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-HOLD1"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-SCASA"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-SCASB"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-SRASA"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-SRASB"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-SWEA"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-SWEB"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/-DDR3_RST"
+      },
+      {
+        "netclass": "RAM_Data",
+        "pattern": "/A_DDR_COMP*"
+      },
+      {
+        "netclass": "PCIe_DiffPair",
+        "pattern": "/PA_EXP_RX*"
+      },
+      {
+        "netclass": "PCIe_DiffPair",
+        "pattern": "/PA_EXP_TX*"
+      },
+      {
+        "netclass": "PCIe_DiffPair",
+        "pattern": "/PI_PCIEX1_*"
+      },
+      {
+        "netclass": "PCIe_DiffPair",
+        "pattern": "/PJ_PCIEX1_*"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/CK_-DOTCLK"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/CK_DOTCLK"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/MCLK"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/N_Y1"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/N_Y2"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/N_-CLK_GND"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/N_CLK_GND"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/CK_-SRCCLK_PCH"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/CK_SRCCLK_PCH"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/CK_-SRCCLK_SATA"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/CK_SRCCLK_SATA"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/PA_-SRCCLK_3GIO"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/PA_SRCCLK_3GIO"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/PI_-PCIE_CLK"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/PI_PCIE_CLK"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/PJ_-PCIE_CLK"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/PJ_PCIE_CLK"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/LA_-SRCCLK_LAN"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/LA_SRCCLK_LAN"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/LA_CLKREQB"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/N_-PCIE_WAKE"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/-PCIE_RST"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/-PCIRSTIN"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/PCIRST1"
+      },
+      {
+        "netclass": "Clocks",
+        "pattern": "/PCIRST2"
+      },
+      {
+        "netclass": "SATA_DiffPair",
+        "pattern": "/N_SATA*RXN"
+      },
+      {
+        "netclass": "SATA_DiffPair",
+        "pattern": "/N_SATA*RXNC"
+      },
+      {
+        "netclass": "SATA_DiffPair",
+        "pattern": "/N_SATA*RXP"
+      },
+      {
+        "netclass": "SATA_DiffPair",
+        "pattern": "/N_SATA*RXPC"
+      },
+      {
+        "netclass": "SATA_DiffPair",
+        "pattern": "/N_SATA*TXN"
+      },
+      {
+        "netclass": "SATA_DiffPair",
+        "pattern": "/N_SATA*TXNC"
+      },
+      {
+        "netclass": "SATA_DiffPair",
+        "pattern": "/N_SATA*TXP"
+      },
+      {
+        "netclass": "SATA_DiffPair",
+        "pattern": "/N_SATA*TXPC"
+      },
+      {
+        "netclass": "SATA_DiffPair",
+        "pattern": "/SATA3COMP"
+      },
+      {
+        "netclass": "SATA_DiffPair",
+        "pattern": "/N_-SATALED"
+      },
+      {
+        "netclass": "SATA_DiffPair",
+        "pattern": "/PIN_SATA2_2_*"
+      },
+      {
+        "netclass": "USB_DiffPair",
+        "pattern": "/N_-USBP*"
+      },
+      {
+        "netclass": "USB_DiffPair",
+        "pattern": "/N_+USBP*"
+      },
+      {
+        "netclass": "USB_DiffPair",
+        "pattern": "/PCH_USB3_RX*"
+      },
+      {
+        "netclass": "USB_DiffPair",
+        "pattern": "/PCH_USB3_TX*"
+      },
+      {
+        "netclass": "USB_DiffPair",
+        "pattern": "/PIN_R_USB30_*"
+      },
+      {
+        "netclass": "USB_DiffPair",
+        "pattern": "/N_-USBOC_F"
+      },
+      {
+        "netclass": "USB_DiffPair",
+        "pattern": "/N_-USBOC_R"
+      },
+      {
+        "netclass": "USB_DiffPair",
+        "pattern": "/N_USBRBIAS"
+      },
+      {
+        "netclass": "DMI_FDI_DiffPair",
+        "pattern": "/A_DMI_*RXN"
+      },
+      {
+        "netclass": "DMI_FDI_DiffPair",
+        "pattern": "/A_DMI_*RXP"
+      },
+      {
+        "netclass": "DMI_FDI_DiffPair",
+        "pattern": "/A_DMI_*TXN"
+      },
+      {
+        "netclass": "DMI_FDI_DiffPair",
+        "pattern": "/A_DMI_*TXP"
+      },
+      {
+        "netclass": "DMI_FDI_DiffPair",
+        "pattern": "/DMI_COMP"
+      },
+      {
+        "netclass": "DMI_FDI_DiffPair",
+        "pattern": "/FDI_TXN*"
+      },
+      {
+        "netclass": "DMI_FDI_DiffPair",
+        "pattern": "/FDI_TXP*"
+      },
+      {
+        "netclass": "DMI_FDI_DiffPair",
+        "pattern": "/FDI_CSYNC"
+      },
+      {
+        "netclass": "DMI_FDI_DiffPair",
+        "pattern": "/FDI_INT"
+      },
+      {
+        "netclass": "DMI_FDI_DiffPair",
+        "pattern": "/FDI_RCOMP"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_MDI0+"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_MDI0-"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_MDI1+"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_MDI1-"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_MDI2+"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_MDI2-"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_MDI3+"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_MDI3-"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_DVDD10"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_VDD33"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_XTALI"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_XTALO"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_RSET"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_REGOUT"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_LED_ACT_TXRX"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_LED_D2"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_LED_LINK100"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_LED_LINK1000"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LAN_3VDUAL_LED"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_ML_IN"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_ML_IN_C"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_ML_IP"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_ML_IP_C"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_ML_ON"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_ML_ON_C"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_ML_OP"
+      },
+      {
+        "netclass": "LAN",
+        "pattern": "/LA_ML_OP_C"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/C_-ACZ_RST"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/C_ACZ_BITCLK"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/C_ACZ_SYNC"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/C_ACZ_SDIN2"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/C_ACZ_SDOUT"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/MIC1_JD"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/MIC1_L"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/MIC1_R"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/MIC1_VREFO_L"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/MIC1_VREFO_R"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/MIC2_L"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/MIC2_R"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/MIC2_VREFO"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/LINE1_JD"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/LINE2_L"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/LINE2_R"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/LINE2_VREFO"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/LINE_IN_L"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/LINE_IN_R"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/LINE_O_L"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/LINE_O_R"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/FAUDIO_JD"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/FRONT_JD"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/BEEP-"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/SPK-"
+      },
+      {
+        "netclass": "Audio",
+        "pattern": "/PIN_AUDIO_*"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/VGA_R"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/VGA_G"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/VGA_B"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/N_R"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/N_G"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/N_B"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/N_GHSYNC"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/N_GVSYNC"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/H_SYNC"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/V_SYNC"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/N_VGA_RSET"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/VGADDCCLK"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/VGADDCDATA"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/N_DDCCLK"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/N_DDCDATA"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/N_-DP_CLK"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/N_DP_CLK"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/N_-CK_DPCLK"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/N_CK_DPCLK"
+      },
+      {
+        "netclass": "VGA_Display",
+        "pattern": "/PIN_VGA_*"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_LAD0"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_LAD1"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_LAD2"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_LAD3"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-LFRAME"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-LDRQ0"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_SERIRQ"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_SMBCLK"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_SMBDATA"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_SML0CLK"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_SML0DAT"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_SML1CLK"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_SML1DAT"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-ICH_SPI_CS"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_ICH_SPI_CLK"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_ICH_SPI_MISO"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_ICH_SPI_MOSI"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/-SPI_CS_1"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/-SPI_CS_2"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/-SPI_HOLD_B"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/-SPI_HOLD_M"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/SPI_DQ2"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/SPI_DQ3"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/SPI_MISO"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-SPI_WP0"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-SPI_WP1"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-PIRQA"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-PIRQB"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-PIRQC"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-PIRQD"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-PIRQE"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-PIRQF"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-PIRQG"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-PIRQH"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_GPIO*"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/GP24"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/GP25"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/GP26"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_PCH_TCK"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_PCH_TDI"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_PCH_TDO"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_PCH_TMS"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-PCH_HOT"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_PCH_RST"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-S4_S5"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-SLP_S3"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-SYS_RST"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-S_WARN"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-RTCRST"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-SRTCRST"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_A20GATE"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_ISOLATEB"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_CPUPWROK"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-CPUCLK"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_CPUCLK"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_CLK_RCOMP"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-DEPSLP"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-RI"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_-THRMTRIP"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/O_-RSMRST"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/O_LPCCLK48"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/O_PWRBTSW"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/O_PWROK1"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_PCH33"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_LPC33"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_PCHCLK14"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_PCH_48M"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_XTALI_PCH"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/N_XTALO_PCH"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_-CPURST"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_-HPRDY"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_-PROCHOT"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_-SKTOCC"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_-THRMTRIP"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_-TRST"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_HSW_CFG_RCOMP"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_PECI"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_PMSYNC"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_PWR_DEBUG"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_SM_VREF"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_SO"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_SYC"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_TCK"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_TESTLOW_1"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/A_TESTLOW_2"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/SB_PECI"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/-PROCHOT_CON"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/-PVIDALRT"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/PVIDSLCK"
+      },
+      {
+        "netclass": "PCH_Data",
+        "pattern": "/PVIDSOUT"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/KBCLK"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/KBDATA"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/KDAT"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/MSCLK"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/MSDATA"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/PIN_KB_MS_*"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/FAN1_SET"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/FAN1_VOUT"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/FANIO1"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/FANIO2"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/FANPWM1"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/FANPWM2"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/SYS_TEMP"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/TEMP3"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/PCH_TEMP"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/N_TEMP_ALART-"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/-CASEOPEN"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/N_-INTRUDER"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/N_-KBRST"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/N_-LPCPME"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/N_-PCI_STOP"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/N_-PFMRST"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/-PFMRST2"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/-D_GPIO_HRST"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/-PWRBTSW"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/-PWRBT_1"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/-RST"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/-RST_BTN"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/BOOT"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/CEB_N"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/JP2"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/JP3"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/JP4"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/JP5"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/MB_ID2"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/P_EN"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/N_SSTCTL"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/PWM3"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/VREF"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/VREF_25"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/N_-IGC_EN"
+      },
+      {
+        "netclass": "Low_Speed_IO",
+        "pattern": "/N_SPKR"
       }
     ]
   },
@@ -653,7 +2434,13 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
+    "top_level_sheets": [
+      {
+        "filename": "H81-Custom-MotherBoard.kicad_sch",
+        "name": "H81-Custom-MotherBoard",
+        "uuid": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
     "used_designators": "",
     "variants": []
   },
